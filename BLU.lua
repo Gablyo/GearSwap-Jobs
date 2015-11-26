@@ -210,7 +210,7 @@ function init_gear_sets()
     -- Start defining the sets
     --------------------------------------
 
-    sets.buff['Burst Affinity'] = {feet="Mavi Basmak +2"}
+    sets.buff['Burst Affinity'] = {feet="Hashishin Basmak"}
     sets.buff['Chain Affinity'] = {head="Mavi Kavuk +2", feet="Assimilator's Charuqs"}
     sets.buff.Convergence = {head="Luhlaza Keffiyeh"}
     sets.buff.Diffusion = {feet="Luhlaza Charuqs"}
@@ -240,7 +240,7 @@ function init_gear_sets()
         body="Luhlaza Jubbah",hands="Thaumas Gloves",ring1="Prolix Ring",
         back="Swith Cape +1",waist="Witful Belt",legs="Enif Cosciales",feet="Chelona Boots +1"}
         
-    sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {body="Mavi Mintan +2"})
+    sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {body="Hashishin Mintan"})
 
        
     -- Weaponskill sets
@@ -248,7 +248,7 @@ function init_gear_sets()
     sets.precast.WS = {
         head="Whirlpool Mask",neck=gear.ElementalGorget,ear1="Bladeborn Earring",ear2="Steelflash Earring",
         body="Qaaxo Harness",hands="Assimilator's Bazubands +1",ring1="Rajas Ring",ring2="Epona's Ring",
-        back="Atheling Mantle",waist=gear.ElementalBelt,legs="Manibozho Brais",feet="Iuitl Gaiters +1"}
+        back="Atheling Mantle",waist="Fotia Belt",legs="Manibozho Brais",feet="Iuitl Gaiters +1"}
     
     sets.precast.WS.acc = set_combine(sets.precast.WS, {hands="Buremte Gloves"})
 
